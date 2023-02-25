@@ -151,7 +151,7 @@ function createR() {
 
   function readQ() {
     document.getElementById("Table2").innerHTML = "";
-    var c = document.getElementById("Input8").value;
+    var c = document.getElementById("Input9").value;
 
     var ref = firebase.database().ref("Proyectos");
     ref
